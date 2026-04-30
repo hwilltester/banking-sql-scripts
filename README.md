@@ -1,8 +1,8 @@
-# 🗄️ Banking QA — SQL Test Scripts
+# 🗄️ Banking QA ~ SQL Test Scripts
 
 These are SQL queries I wrote for data validation during UAT at Yoma Bank.
 
-The idea is simple — when you're testing a banking system, you can't just trust what the UI shows you. A transfer screen might say "Success" but the actual balance in the database might not have changed. These queries let you go directly to the data and verify the truth.
+The idea is simple ~ when you're testing a banking system, you can't just trust what the UI shows you. A transfer screen might say "Success" but the actual balance in the database might not have changed. These queries let you go directly to the data and verify the truth.
 
 ---
 
@@ -23,7 +23,7 @@ You can only answer those questions with SQL. That's why I built this collection
 
 ## What's in this project
 
-One file — `banking_qa_queries.sql` — with 10 queries, each one solving a specific testing problem.
+One file ~ `banking_qa_queries.sql` ~ with 10 queries, each one solving a specific testing problem.
 
 | # | Query | What It Catches |
 |---|-------|----------------|
@@ -56,7 +56,7 @@ Just replace the sample values (like `'ACC-001-SAVING'` or `'CUST-001'`) with yo
 
 The table and column names here are generic on purpose. Real banking systems have their own naming conventions and I've kept the specifics out of this portfolio for obvious reasons.
 
-But the logic is real — these are the same patterns I applied when validating Loan Origination, Collection System, and Mobile Banking UAT at Yoma Bank.
+But the logic is real ~ these are the same patterns I applied when validating Loan Origination, Collection System, and Mobile Banking UAT at Yoma Bank.
 
 ---
 
@@ -74,6 +74,6 @@ SOURCE banking_qa_queries.sql;
 
 ## 🙋 Author
 
-**Htuu Will Oo** — QA Engineer with 7+ years in banking and fintech
+**Htuu Will Oo** ~ QA Engineer with 7+ years in banking and fintech
 
 [GitHub](https://github.com/hwilltester) · [LinkedIn](https://linkedin.com/in/htuuwill)
